@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+       android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/line"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bottom_shade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/download8"
+            android:id="@+id/imageView"/>
+        <LinearLayout
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:textStyle="bold"
+                android:background="@color/teal_200"
+                android:id="@+id/textView1"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tech" />
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="গ্যালাক্সি রিং নিয়ে কাজ করবে স্যামসাং" />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:id="@+id/textView3"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="প্রতিদিন কতটুকু পথ হাঁটা হয়েছে, হূত্স্পন্দন কতটুকু, ঘুমের পরিমাপসহ স্বাস্থ্য সুরক্ষায় স্মার্টওয়াচ ও স্মার্টব্যান্ডের প্রচলন রয়েছে। এসব ডিভাইস অনেকের কাছে স্বাচ্ছন্দ্যের আবার কারো কাছে বিরক্তির। তবে এদিক থেকে স্মার্ট রিং অনেকটাই আরামদায়ক। এ কারণে শিগগিরই এমন একটি ডিভাইস নিয়ে কাজ করার পরিকল্পনা হাতে নিয়েছে স্যামসাং।
+দক্ষিণ কোরিয়ায় নাভেরের কাছে এমনই একটি ডিভাইস তৈরিতে পেটেন্ট আবেদন জমা দিয়েছে দেশটির অন্যতম এ প্রযুক্তি জায়ান্ট। প্রযুক্তিবিদ ও সংশ্লিষ্টদের ধারণা, নতুন ডিভাইসটিতে স্যামসাং গ্যালাক্সি ওয়াচ ৫-এর সব ফিচার থাকবে।
+"
+              />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
